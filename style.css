@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400&display=swap');
+
+body {
+    font-family: arial;
+    background-color: rgb(214, 214, 214);
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Urbanist', sans-serif;
+    color: white;
+  }
+  
+  header {
+    background: rgb(154,7,123);
+    background: linear-gradient(90deg,
+   rgb(180, 8, 143) 0%,
+   rgb(141, 8, 185) 50%,
+   rgb(123, 17, 221) 100%); 
+   color: white;
+   font-family: 'Satisfy', cursive;
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 2%;
+    text-align: center;
+  }
+  
+  .box {
+    background: rgb(218, 26, 147);
+    background: linear-gradient(90deg, rgb(224, 26, 152) 0%, rgb(250, 43, 212) 50%, rgb(196, 15, 206) 100%); 
+    margin: 2% auto;
+    width: 45%;
+    text-align: center;
+    border-radius: 20px;
+    padding: 2% 0;
+  }
+  
+  label {
+    line-height: 1.4;
+  }
+
+
+    input {
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+    border-radius: 10px;
+    padding: 2%;
+    border: 0;
+    text-align: center;
+  }
+
+  
+  select {
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 64%;
+    border-radius: 10px;
+    padding: 2%;
+    border: 0;
+    text-align: center;
+  }
+  
+  button {
+    font-size: 20px;
+    margin-top: 20px;
+    width: 42%;
+    border-radius: 10px;
+    padding: 2%;
+    border: 0;
+    background-color: #6d23b6;
+    color: white;
+  }
+  
+  button:hover{
+    background-color: rgb(112, 16, 150);
+    color: white; 
+  }
